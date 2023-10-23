@@ -21,8 +21,6 @@ header{
 ul{
     list-style-type: none;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
 }
 h1{
     margin-bottom: 20px;
@@ -33,11 +31,14 @@ h1{
 .container{
     max-width: 1200px;
     margin: auto;
-   
 }
 .container-sm{
-    max-width: 50%;
-  
+    max-width: 991px;
+    margin: auto;
+
+}
+.display-flex{
+    display: flex;
 }
 
 /* Colore testo */
@@ -58,6 +59,9 @@ h1{
     display: flex;
 }
 
+.align-items{
+    align-items: center;
+}
 
 /* Bottone */
 .bottone{
@@ -67,23 +71,34 @@ h1{
     align-items: center;
     font-size: 15px;
 }
+/* Immagine sfondo */
 .sfondo{
     background-image: url("../img/jumbo.png");
     background-size: cover;
     
 }
+/* Allineamento */
 .align-center{
     align-items: center;
 }
+
 /* COLONNE */
 .col-15{
     width: 15%;
     display: flex;
     justify-content: end;
 }
+
+.col-16{
+    width: calc(100% / 6);
+    display: flex;
+   
+  }
+
 .col-55{
     width: 55%;
 }
+
 .col-33{
     width: calc(100% / 3);
 }
@@ -109,6 +124,7 @@ h1{
 .margin-top{
     margin-top: 10px;
 }
+
 .margin-y-30{
     margin: 30px 0;
  }
@@ -126,6 +142,14 @@ h1{
     height: 600px;
 }
 
+.height-300{
+
+    height:300px;
+}
+.altezza-linea{
+    line-height:30px;
+}
+
 /* padding */
 .padding-y-10{
     padding: 10px 0;
@@ -138,18 +162,20 @@ h1{
     padding:15px;
 }
 
+/* Margini */
 .margin-left{
    margin-left: 10px;
 }
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+
+/* colori background */
 .bg-black{
     background-color: black;
 }
 .bg-violet{
     background-color: rgb(105, 88, 121);
-}
-
-.margin-bottom-50{
-    margin-bottom: 50px;
 }
 
 
@@ -162,23 +188,11 @@ hr
 
 .settimoblocco{
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
 
-
 }
-.col-33{
-    height: 400px;
-    width: calc(100% / 3);
-
-}
-
-.col-16{
-    height: 400px;
-    width: calc(100% / 6);
-  
-  }
 
 li{
   list-style-type: none;
@@ -202,9 +216,6 @@ hr{
     align-items: flex-start;
    
 }
-.b-logo{
-    padding: 4px;
-}
 
 .paragrafo{
   margin-top: 5px;
@@ -212,4 +223,13 @@ hr{
   padding-right: 25px;
   font-size: 15px;
   font-weight: bold;
+}
+div > ul{
+    color: #fff;
+}
+.img-100{
+    max-width: 100%;
+}
+.ita{
+    width:25px;
 }
