@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* tag */
 footer{
@@ -13,7 +13,7 @@ hr{
     margin: 10px;
 }
 header{
-    background-color: rgb(3, 121, 160);
+    background-color: #5865f2;
     height: 75px;
     padding: 10px;
  }
@@ -27,14 +27,16 @@ ul{
 h1{
     margin-bottom: 20px;
 }
-/* container */
+
+
+/* CONTAINER */
 .container{
     max-width: 1200px;
-    
+   
 }
 .container-sm{
-    max-width: 600px;
-   
+    max-width: 50%;
+  
 }
 
 /* Colore testo */
@@ -55,32 +57,40 @@ h1{
     display: flex;
 }
 
+
 /* Bottone */
 .bottone{
-    padding: 10px;
-    border-radius: 50%;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;   
+    align-items: center;
 }
 .sfondo{
     background-image: url("../img/jumbo.png");
     background-size: cover;
     
 }
+.align-center{
+    align-items: center;
+}
 /* COLONNE */
 .col-15{
     width: 15%;
-   
+    display: flex;
+    justify-content: end;
 }
-.col-40{
-    width: 40%;
+.col-55{
+    width: 55%;
 }
-.col-60{
-    width: 60%;
+.col-45{
+    width: 45%;
 }
 .col-70{
     width: 70%;
 }
 .col-100{
     width: 100%;
+    
 }
 
 /* margini */
@@ -93,12 +103,16 @@ h1{
 .margin-y-30{
     margin: 30px 0;
  }
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+.margin-top-150{
+    margin-top: 150px;
+}
 
 
 /* altezze */
-.height-50{
-    height: 50px;
-}
+
 .height-600{
     height: 600px;
 }
@@ -106,27 +120,7 @@ h1{
 /* colori bg */
 
  
-.bg-darkblu{
-    background-color: darkblue;
-    padding: 20px 0;
-}
 
-.bg-pink{
-    background-color: pink;
-}
-
-.bg-acquamarine{
-    background-color: rgb(4, 203, 156)
-}
-.bg-grey{
-    background-color: grey
-}
-.bg-white{
-    background-color: white;
-}
-.bg-black{
-    background-color: black;
-}
 
 .content{
     display: flex;
@@ -144,11 +138,10 @@ h1{
 .padding-y-30{
     padding: 30px 0;
 }
-.padding-10{
-    padding:10px;
+.padding-15{
+    padding:15px;
 }
 
-.border-radius{
-    border-radius: 20%;
-    border: none;   
+.margin-left{
+   margin-left: 10px;
 }
