@@ -64,6 +64,7 @@ h1{
     border-radius: 40px;
     border: none;   
     align-items: center;
+    font-size: 15px;
 }
 .sfondo{
     background-image: url("../img/jumbo.png");
@@ -82,6 +83,9 @@ h1{
 .col-55{
     width: 55%;
 }
+.col-33{
+    width: calc(100% / 3);
+}
 .col-45{
     width: 45%;
 }
@@ -91,6 +95,9 @@ h1{
 .col-100{
     width: 100%;
     
+}
+.stelline{
+    width: 70%;
 }
 
 /* margini */
@@ -117,19 +124,6 @@ h1{
     height: 600px;
 }
 
-/* colori bg */
-
- 
-
-
-.content{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.side{
-    padding-top:10px;
-}
 /* padding */
 .padding-y-10{
     padding: 10px 0;
@@ -144,4 +138,14 @@ h1{
 
 .margin-left{
    margin-left: 10px;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-violet{
+    background-color: rgb(105, 88, 121);
+}
+
+.margin-bottom-50{
+    margin-bottom: 50px;
 }
