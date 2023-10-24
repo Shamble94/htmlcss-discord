@@ -18,6 +18,17 @@ header{
     padding: 10px;
  }
 
+ header ul{
+    display:flex;
+    justify-content: center;
+ }
+
+.col-70 li{
+    padding: 15px;
+}
+.justify-center{
+    justify-center
+}
 ul{
     list-style-type: none;
     text-align: center;
@@ -107,7 +118,6 @@ h1{
 }
 .col-70{
     width: 70%;
-    margin: auto;
 }
 .col-100{
     width: 100%;
